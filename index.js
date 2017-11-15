@@ -18,6 +18,6 @@ function nameToAttributes(list) {
 
 function attributesToPhrase(list) {
   return list.map(function (y){
-    const sentence = console.log(y.name + ' is from ' + y.hometown);
+    return (y.name + ' is from ' + y.hometown);
   })
 }
