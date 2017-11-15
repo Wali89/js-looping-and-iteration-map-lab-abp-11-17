@@ -11,6 +11,6 @@ function nameToAttributes(list) {
     const driverFirst = x.split(' ')[0];
     const driverLast = x.split('')[1];
 
-    return {firstName: driverFirst, lastName: driverLast}
+    return {firstName: driverFirst, lastName: driverLast};
   })
 }
